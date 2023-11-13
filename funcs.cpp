@@ -8,13 +8,11 @@ double MySub(double a, double b)
 {
 return a - b;
 }
-//файл program.cpp
-#include <iostream>
-#include "funcs.h"
-using namespace std;
-int main()
+double MyMul(double a, double b)
 {
-cout << MySum(10, 3) << endl;
-cout << MySub(10, 3) << endl;
-return 0;
+return a * b;
+}
+double MyDiv(double a, double b)
+{
+return a / b;
 }
